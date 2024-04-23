@@ -16,6 +16,7 @@ import {
 import { Button } from "@/components/ui/button";
 import ExpenseTable from "../_components/expense-table";
 import EditBudget from "../_components/edit-budget";
+import AddExpense from "../_components/add-expense";
 
 const ExpenseScreen = ({ params }) => {
 	return (
@@ -66,7 +67,7 @@ const ExpenseScreen = ({ params }) => {
 					Budget item
 				</div>
 				{/* Add Expense */}
-				Add Expense Table
+				<AddExpense />
 			</div>
 			<div className="mt-4">
 				<ExpenseTable />
