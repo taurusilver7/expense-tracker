@@ -14,9 +14,8 @@ const Header = () => {
 					<Button variant="outline">Dashboard</Button>
 				</Link>
 
-				<UserButton />
-
-				<Link href="/sign-in">Get Started</Link>
+				{/* <UserButton /> */}
+				{true ? <p>User</p> : <Link href="/sign-in">Get Started</Link>}
 			</div>
 		</nav>
 	);
