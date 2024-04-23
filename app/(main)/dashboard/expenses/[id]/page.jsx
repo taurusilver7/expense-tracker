@@ -29,7 +29,7 @@ const ExpenseScreen = ({ params }) => {
 
 				<div className="flex gap-2 items-center">
 					{/* Edit Budget component */}
-               <EditBudget />
+					<EditBudget />
 
 					<AlertDialog>
 						<AlertDialogTrigger asChild>
@@ -63,9 +63,7 @@ const ExpenseScreen = ({ params }) => {
 
 			<div className="grid grid-cols-1 md:grid-cols-2 mt-6 gap-5">
 				{/* Budget item */}
-				<div className="w-full bg-slate-200 rounded-lg h-[150px] animate-pulse">
-					Budget item
-				</div>
+				<div className="w-full bg-slate-200 rounded-lg h-[150px] animate-pulse"></div>
 				{/* Add Expense */}
 				<AddExpense />
 			</div>
